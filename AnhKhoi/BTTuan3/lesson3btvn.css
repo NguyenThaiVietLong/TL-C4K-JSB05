@@ -1,0 +1,10 @@
+h1 {
+    color: yellow;
+    text-align: center;
+}
+.container {
+    display: flex;
+}
+.item {
+    margin: 0 10px
+}
