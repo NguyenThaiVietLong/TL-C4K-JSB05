@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Fixed Example</title>
+    <style>
+        /* Định dạng cho phần tử cố định */
+        .fixed-element {
+            position: fixed;
+            top: 20px;       /* Cách đỉnh cửa sổ 20px */
+            right: 20px;     /* Cách bên phải cửa sổ 20px */
+            width: 150px;
+            padding: 10px;
+            background-color: lightgreen;
+            border: 1px solid #333;
+        }
+
+        /* Định dạng cho nội dung dài để tạo cuộn trang */
+        .content {
+            height: 2000px;
+            padding-top: 50px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Phần tử có position: fixed -->
+    <div class="fixed-element">
+        Đây là một phần tử cố định
+    </div>
+
+    <!-- Nội dung dài để tạo cuộn trang -->
+    <div class="content">
+        <p>Cuộn trang xuống để thấy phần tử này vẫn giữ nguyên vị trí ở góc trên bên phải của cửa sổ.</p>
+        <p>Phần tử cố định này có thể được sử dụng cho các nút điều hướng, nút trở về đầu trang, hoặc thông báo quan trọng mà bạn muốn người dùng luôn nhìn thấy.</p>
+        <p>Cuộn xuống...</p>
+    </div>
+</body>
+</html>

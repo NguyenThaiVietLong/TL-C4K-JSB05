@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Absolute Example</title>
+    <style>
+        /* Định dạng cho phần tử cha */
+        .parent {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            background-color: lightcoral;
+            margin: 50px;
+        }
+
+        /* Định dạng cho phần tử con có position: absolute */
+        .child {
+            position: absolute;
+            top: 50px;     /* Cách đỉnh của phần tử cha 20px */
+            left: 30px;    /* Cách bên trái của phần tử cha 30px */
+            width: 100px;
+            height: 50px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- Phần tử cha có position: relative -->
+    <div class="parent">
+        <!-- Phần tử con có position: absolute -->
+        <div class="child">
+            Phần tử con
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+.container {
+    position: relative;
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    background-color: #000401;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.paragraph {
+    position: absolute;
+    top: 100px;
+    background-color: grey;
+    color: #000401;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.notification {
+    position: fixed;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    top: 20px;
+    right: 20px;
+}
+
+.paragraph2 {
+    position: absolute;
+    background-color: gray;
+    top: 250px;
+    padding: 50px;
+    width: 100%;
+    display: flex; /* Thêm display: flex vào đây */
+}
+
+.comeback {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: auto; /* Đẩy nút về phía bên phải */
+}
